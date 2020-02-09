@@ -1,0 +1,130 @@
+
+@media only screen and (min-width: 992px) {
+ 
+.column {
+    float: left;
+    
+    background-color: rgb(175, 175, 175);
+
+    width: 29%;
+    margin: 10px 20px;
+    border: 2px solid black;
+}
+
+.column2 {
+    float: left;
+    
+    background-color: rgb(175, 175, 175);
+
+    width: 29%;
+    margin: 10px 20px;
+    border: 2px solid black;
+}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ 
+.column {
+    float: left;
+    
+    background-color: rgb(175, 175, 175);
+
+    width: 46.5%;
+    margin: 10px 10px;
+    border: 2px solid black;
+}
+
+ 
+.column2 {
+    float: left;
+    
+    background-color: rgb(175, 175, 175);
+
+    width: 96%;
+    margin: 10px 10px ;
+    margin-right: 100px;
+    border: 2px solid black;
+}
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+ 
+.column {
+    float: left;
+    
+    background-color: rgb(175, 175, 175);
+
+    width: 100%;
+    margin: 10px 10px;
+    border: 2px solid black;
+}
+
+.column2 {
+    float: left;
+    
+    background-color: rgb(175, 175, 175);
+
+    width: 100%;
+    margin: 10px 10px;
+    border: 2px solid black;
+}
+
+body{
+ margin-right: 20px;
+}
+
+
+
+}
+
+    body{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+       
+    }
+    * {
+    margin: 0px; padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    font-size:35px;
+}
+
+h2 {
+    display: block;
+    font-size:20px;
+    border-left: 2px solid black;
+    text-align: end;
+    float: right;
+
+    padding: 1px 40px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+p{
+    float: right;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+}
+
+#s {
+    background-color: rgb(235, 223, 113);
+}
+
+#c {
+    background-color: rgb(228,115,115);
+}
+
+#b {
+    background-color: rgb(206,18,18); ;
+    color:white;
+}
+
